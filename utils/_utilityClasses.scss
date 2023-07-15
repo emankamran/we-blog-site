@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    height: 4rem;
+    width: auto;
+    padding: 1.5rem 2rem 3rem 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: $header-text-color;
+    background-color: $btn-primary-color;
+    transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: blue;
+  color: $header-text-color;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.hidden {
+  display: none;
+}
+
+@mixin container {
+  width:70%;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
